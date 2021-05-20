@@ -1,0 +1,121 @@
+#start,#selectImg,#puzzleArea{
+
+width: 600px;
+margin: auto;
+text-align: center;
+margin-top: 80px;
+
+}
+body{
+
+    font-family: 'Aleo', serif;
+}
+
+.startBtn, .cntBtn, #sffBtn {
+    border-radius: 12px;
+    width: 150px;
+    height: 50px;
+    
+    font-size: 24px;
+    -webkit-transition: all 0.75s ease-out;
+    -moz-transition: all 0.75s ease-out;
+    -o-transition: all 0.75s ease-out;
+    -ms-transition: all 0.75s ease-out;
+    transition: all 0.75s ease-out;
+    background-color:white;
+    color:grey;
+    cursor: pointer;
+}
+
+.startBtn:hover,.cntBtn:hover, #sffBtn:hover{
+
+    background-color: rgb(201, 155, 201);
+    -o-transition:0.75s;
+    -ms-transition:0.75s;
+    -moz-transition:0.75s;
+    -webkit-transition:0.75s;
+    
+    transition:0.75s;
+    color:black;
+    border-color: gray;
+    
+
+}
+#info3,#info2,#selectImg,#puzzleArea,#wonArea {
+    display: none;
+    vertical-align: middle;
+
+}
+
+#mPart {
+    height: 200px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding-left: 200px;
+
+}
+
+#start {
+    text-align: center;
+    height: 350px;
+}
+h2, h3, h4 {
+    padding-top: 25px;
+    margin: 0px;
+    vertical-align: middle;
+}
+#imageSelectArea {
+    width: 600px;
+    margin-top: 25px;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+
+}
+.cntBtn{
+    margin-top: 25px;
+    display: none;
+}
+
+img {
+    
+    border: none;
+    color: white;
+   
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 12px;
+  }
+  
+  img:hover {
+      opacity: 1;
+      box-shadow: 10px 10px;
+    }
+
+
+  #puzzleArea > table {
+
+    border-spacing: 0px;
+
+  }
+  .imgP {
+      margin: 0px;
+      border-radius: 8px;
+      border: 1px;
+      position: absolute;    
+  }
+#congText {
+
+    margin: 0;
+    
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    margin-right: -50%;
+}
